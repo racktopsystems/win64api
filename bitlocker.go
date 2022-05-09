@@ -6,9 +6,9 @@ package winapi
 import (
 	"fmt"
 
-	ole "github.com/go-ole/go-ole"
+	"github.com/go-ole/go-ole"
 	"github.com/go-ole/go-ole/oleutil"
-	so "github.com/iamacarpet/go-win64api/shared"
+	so "github.com/racktopsystems/winapi/shared"
 	"github.com/scjalliance/comshim"
 )
 

@@ -10,7 +10,7 @@ import (
 	"time"
 	"unsafe"
 
-	so "github.com/iamacarpet/go-win64api/shared"
+	so "github.com/racktopsystems/winapi/shared"
 )
 
 var (

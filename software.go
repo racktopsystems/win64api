@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sys/windows/registry"
 
-	so "github.com/iamacarpet/go-win64api/shared"
+	so "github.com/racktopsystems/winapi/shared"
 )
 
 func InstalledSoftwareList() ([]so.Software, error) {

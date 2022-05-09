@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	ole "github.com/go-ole/go-ole"
+	"github.com/go-ole/go-ole"
 	"github.com/go-ole/go-ole/oleutil"
 	"github.com/scjalliance/comshim"
 
-	so "github.com/iamacarpet/go-win64api/shared"
+	so "github.com/racktopsystems/winapi/shared"
 )
 
 func GetSystemProfile() (so.Hardware, so.OperatingSystem, so.Memory, []so.Disk, []so.Network, error) {
